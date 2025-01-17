@@ -4,7 +4,7 @@ import java.net.UnknownHostException;
 public class Ejercicio01 {
     public static void main(String[] args) {
         try {
-
+            // REVISAR
             // Método que devuelve un objeto InetAdress conteniendo nombre y dirección IP del host local
             System.out.println("Host: " + InetAddress.getLocalHost()); // Nombre y IP
             System.out.println("Nombre: " + InetAddress.getLocalHost().getHostName()); // Solo el nombre

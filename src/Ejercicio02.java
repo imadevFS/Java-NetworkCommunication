@@ -4,6 +4,7 @@ import java.net.URL;
 public class Ejercicio02 {
     public static void main(String[] args) {
         try {
+            // REVISAR
             // Crear un objeto URL
             URL direccion = new URL("https://www.google.com");
 
