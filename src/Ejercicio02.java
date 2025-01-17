@@ -13,7 +13,7 @@ public class Ejercicio02 {
             System.out.println("Puerto: " + direccion.getPort()); // Devuelve -1 si no se especifica puerto
             System.out.println("Path: " + direccion.getPath()); // Ruta del recurso
             System.out.println("Archivo: " + direccion.getFile()); // Archivo o recurso
-            
+
         } catch (MalformedURLException e) {
             System.out.println("Error: URL mal formada.");
         }
