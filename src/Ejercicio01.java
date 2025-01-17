@@ -5,6 +5,7 @@ public class Ejercicio01 {
     public static void main(String[] args) {
         try {
             InetAddress localHost = InetAddress.getLocalHost();
+
             // Método que devuelve un objeto InetAdress conteniendo nombre y dirección IP del host local
             System.out.println("Host: " + localHost); // Nombre y IP
             System.out.println("Nombre: " + localHost.getHostName()); // Solo el nombre
@@ -14,7 +15,7 @@ public class Ejercicio01 {
             InetAddress host = InetAddress.getByName("www.ejemplo.com"); // Cambia "www.ejemplo.com" por el host que desees
             System.out.println("Nombre del host específico: " + host.getHostName());
             System.out.println("IP del host específico: " + host.getHostAddress());
-
+            
         } catch (UnknownHostException e) {
             System.out.println("Error: Host no encontrado.");
         }
